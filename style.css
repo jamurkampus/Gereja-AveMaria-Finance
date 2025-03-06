@@ -1,21 +1,49 @@
-#summary {
-    margin-top: 20px;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-#summary table {
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+table {
     width: 60%;
-    margin: auto;
+    margin: 20px auto;
     border-collapse: collapse;
+    background: white;
 }
 
-#summary th, #summary td {
+table, th, td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
 
-#summary th {
+th {
     background-color: #007BFF;
     color: white;
+}
+
+tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
