@@ -10,23 +10,9 @@
     <header>
         <h1>Laporan Keuangan Gereja Stasi Ave Maria</h1>
     </header>
-    <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tanggal</th>
-                    <th>Keterangan</th>
-                    <th>Pemasukan (Rp)</th>
-                    <th>Pengeluaran (Rp)</th>
-                    <th>Saldo (Rp)</th>
-                </tr>
-            </thead>
-            <tbody id="finance-data">
-                <!-- Data keuangan akan muncul di sini -->
-            </tbody>
-        </table>
 
-        <!-- Tambahkan bagian total pemasukan dan pengeluaran -->
+    <main>
+        <!-- Rekapitulasi Keuangan per Bulan -->
         <section id="summary">
             <h2>Rekapitulasi Keuangan per Bulan</h2>
             <table>
@@ -42,7 +28,27 @@
                 </tbody>
             </table>
         </section>
+
+        <!-- Detail Transaksi Bulanan (Awalnya Tersembunyi) -->
+        <section id="details" style="display: none;">
+            <h2 id="detail-title"></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Keterangan</th>
+                        <th>Pemasukan (Rp)</th>
+                        <th>Pengeluaran (Rp)</th>
+                    </tr>
+                </thead>
+                <tbody id="details-data">
+                    <!-- Data transaksi akan muncul di sini -->
+                </tbody>
+            </table>
+            <button onclick="hideDetails()">Kembali</button>
+        </section>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
