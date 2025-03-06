@@ -12,9 +12,15 @@
         "pengeluaran": 150000
     },
     {
-        "tanggal": "2025-03-06",
-        "keterangan": "Donasi Acara Paskah",
+        "tanggal": "2025-04-05",
+        "keterangan": "Donasi Paskah",
         "pemasukan": 1000000,
         "pengeluaran": 0
+    },
+    {
+        "tanggal": "2025-04-10",
+        "keterangan": "Perbaikan Gereja",
+        "pemasukan": 0,
+        "pengeluaran": 300000
     }
 ]
